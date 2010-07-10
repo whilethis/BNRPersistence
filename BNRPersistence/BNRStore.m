@@ -79,12 +79,10 @@
 - (void)dissolveAllRelationships
 {
     [self makeEveryStoredObjectPerformSelector:@selector(dissolveAllRelationships)];
-
 }
 
 - (void)dealloc
 {
-    NSLog(@"closing store");
     [uniquingTable release];
     [toBeInserted release];
     [toBeDeleted release];
