@@ -25,14 +25,14 @@ int main (int argc, const char * argv[]) {
     
     [store addClass:[Person class]];
     
-//    for (Person *person in [store allObjectsForClass:[Person class]])
-//        [store deleteObject:person];
-//    
-//    Person *newPerson = [[[Person alloc] init] autorelease];
-//    [newPerson setName:@"Fred"];
-//    [store insertObject:newPerson];
-//    
-//    [store saveChanges:&error];
+    for (Person *person in [store allObjectsForClass:[Person class]])
+        [store deleteObject:person];
+    
+    Person *newPerson = [[[Person alloc] init] autorelease];
+    [newPerson setName:@"Fred"];
+    [store insertObject:newPerson];
+    
+    [store saveChanges:&error];
     
     for (Person *person in [store allObjectsForClass:[Person class]])
     {

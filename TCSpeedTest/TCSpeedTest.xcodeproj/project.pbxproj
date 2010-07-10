@@ -148,6 +148,27 @@
 		93D50A1E110D51E000E5D2F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		93D50A1F110D51E000E5D2F0 /* libtokyocabinet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D5050A110B8AB300E5D2F0 /* libtokyocabinet.a */; };
 		93D50A2A110D520D00E5D2F0 /* SimpleFetchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D50A29110D520D00E5D2F0 /* SimpleFetchTest.m */; };
+		CABA0D3A11E6C64C00C640FA /* BNRCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3711E6C64C00C640FA /* BNRCrypto.m */; };
+		CABA0D3B11E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3911E6C64C00C640FA /* BNRDataBuffer+Encryption.m */; };
+		CABA0D3C11E6C64C00C640FA /* BNRCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3711E6C64C00C640FA /* BNRCrypto.m */; };
+		CABA0D3D11E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3911E6C64C00C640FA /* BNRDataBuffer+Encryption.m */; };
+		CABA0D3E11E6C64C00C640FA /* BNRCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3711E6C64C00C640FA /* BNRCrypto.m */; };
+		CABA0D3F11E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3911E6C64C00C640FA /* BNRDataBuffer+Encryption.m */; };
+		CABA0D4011E6C64C00C640FA /* BNRCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3711E6C64C00C640FA /* BNRCrypto.m */; };
+		CABA0D4111E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3911E6C64C00C640FA /* BNRDataBuffer+Encryption.m */; };
+		CABA0D4211E6C64C00C640FA /* BNRCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3711E6C64C00C640FA /* BNRCrypto.m */; };
+		CABA0D4311E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3911E6C64C00C640FA /* BNRDataBuffer+Encryption.m */; };
+		CABA0D4411E6C64C00C640FA /* BNRCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3711E6C64C00C640FA /* BNRCrypto.m */; };
+		CABA0D4511E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3911E6C64C00C640FA /* BNRDataBuffer+Encryption.m */; };
+		CABA0D4611E6C64C00C640FA /* BNRCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3711E6C64C00C640FA /* BNRCrypto.m */; };
+		CABA0D4711E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = CABA0D3911E6C64C00C640FA /* BNRDataBuffer+Encryption.m */; };
+		CABA0D7211E6C71500C640FA /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CABA0D6F11E6C70C00C640FA /* libcrypto.dylib */; };
+		CABA0D7311E6C71600C640FA /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CABA0D6F11E6C70C00C640FA /* libcrypto.dylib */; };
+		CABA0D7411E6C71700C640FA /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CABA0D6F11E6C70C00C640FA /* libcrypto.dylib */; };
+		CABA0D7511E6C71700C640FA /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CABA0D6F11E6C70C00C640FA /* libcrypto.dylib */; };
+		CABA0D7611E6C71800C640FA /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CABA0D6F11E6C70C00C640FA /* libcrypto.dylib */; };
+		CABA0D7711E6C71900C640FA /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CABA0D6F11E6C70C00C640FA /* libcrypto.dylib */; };
+		CABA0D7811E6C71900C640FA /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CABA0D6F11E6C70C00C640FA /* libcrypto.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -271,6 +292,11 @@
 		93D50956110D4A0F00E5D2F0 /* SimpleInsertTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleInsertTest.m; sourceTree = SOURCE_ROOT; };
 		93D50A23110D51E000E5D2F0 /* SimpleFetchTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleFetchTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D50A29110D520D00E5D2F0 /* SimpleFetchTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFetchTest.m; sourceTree = SOURCE_ROOT; };
+		CABA0D3611E6C64C00C640FA /* BNRCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRCrypto.h; path = ../BNRPersistence/BNRCrypto.h; sourceTree = SOURCE_ROOT; };
+		CABA0D3711E6C64C00C640FA /* BNRCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRCrypto.m; path = ../BNRPersistence/BNRCrypto.m; sourceTree = SOURCE_ROOT; };
+		CABA0D3811E6C64C00C640FA /* BNRDataBuffer+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BNRDataBuffer+Encryption.h"; path = "../BNRPersistence/BNRDataBuffer+Encryption.h"; sourceTree = SOURCE_ROOT; };
+		CABA0D3911E6C64C00C640FA /* BNRDataBuffer+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BNRDataBuffer+Encryption.m"; path = "../BNRPersistence/BNRDataBuffer+Encryption.m"; sourceTree = SOURCE_ROOT; };
+		CABA0D6F11E6C70C00C640FA /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +306,7 @@
 			files = (
 				934ECE751116290500F8C0E5 /* Foundation.framework in Frameworks */,
 				934ECE761116290500F8C0E5 /* libtokyocabinet.a in Frameworks */,
+				CABA0D7611E6C71800C640FA /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +317,7 @@
 				937F31FD11318E6B0035B7EC /* Foundation.framework in Frameworks */,
 				937F31FE11318E6B0035B7EC /* libtokyocabinet.a in Frameworks */,
 				937F32C311319BAE0035B7EC /* libtokyodystopia.a in Frameworks */,
+				CABA0D7711E6C71900C640FA /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +328,7 @@
 				937F33271131AAA60035B7EC /* Foundation.framework in Frameworks */,
 				937F33281131AAA60035B7EC /* libtokyocabinet.a in Frameworks */,
 				937F33291131AAA60035B7EC /* libtokyodystopia.a in Frameworks */,
+				CABA0D7811E6C71900C640FA /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +338,7 @@
 			files = (
 				93D5081F110CB23D00E5D2F0 /* Foundation.framework in Frameworks */,
 				93D50820110CB23D00E5D2F0 /* libtokyocabinet.a in Frameworks */,
+				CABA0D7211E6C71500C640FA /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +348,7 @@
 			files = (
 				93D508B2110D2E3F00E5D2F0 /* Foundation.framework in Frameworks */,
 				93D508B3110D2E3F00E5D2F0 /* libtokyocabinet.a in Frameworks */,
+				CABA0D7311E6C71600C640FA /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +358,7 @@
 			files = (
 				93D50941110D49BB00E5D2F0 /* Foundation.framework in Frameworks */,
 				93D50942110D49BB00E5D2F0 /* libtokyocabinet.a in Frameworks */,
+				CABA0D7411E6C71700C640FA /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +368,7 @@
 			files = (
 				93D50A1E110D51E000E5D2F0 /* Foundation.framework in Frameworks */,
 				93D50A1F110D51E000E5D2F0 /* libtokyocabinet.a in Frameworks */,
+				CABA0D7511E6C71700C640FA /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +412,7 @@
 				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
 				93D5050A110B8AB300E5D2F0 /* libtokyocabinet.a */,
 				9324D36C1129ABD900E8C193 /* libtokyodystopia.a */,
+				CABA0D6F11E6C70C00C640FA /* libcrypto.dylib */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
@@ -412,6 +446,10 @@
 			isa = PBXGroup;
 			children = (
 				9366DA0711120583000A897D /* DataStructures */,
+				CABA0D3611E6C64C00C640FA /* BNRCrypto.h */,
+				CABA0D3711E6C64C00C640FA /* BNRCrypto.m */,
+				CABA0D3811E6C64C00C640FA /* BNRDataBuffer+Encryption.h */,
+				CABA0D3911E6C64C00C640FA /* BNRDataBuffer+Encryption.m */,
 				93D504D1110B883700E5D2F0 /* BNRBackendCursor.h */,
 				93D504D2110B883700E5D2F0 /* BNRBackendCursor.m */,
 				93D504D5110B883700E5D2F0 /* BNRClassMetaData.h */,
@@ -597,6 +635,8 @@
 				934ECE731116290500F8C0E5 /* SpeedTest.m in Sources */,
 				934ECE871116296200F8C0E5 /* SimpleUpdateTest.m in Sources */,
 				934ECFC7111B3C7F00F8C0E5 /* BNRIndexManager.m in Sources */,
+				CABA0D4211E6C64C00C640FA /* BNRCrypto.m in Sources */,
+				CABA0D4311E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +659,8 @@
 				937F31FA11318E6B0035B7EC /* BNRIndexManager.m in Sources */,
 				937F31FB11318E6B0035B7EC /* BNRTCIndexManager.m in Sources */,
 				937F320711318EA60035B7EC /* FullTextInsertTest.m in Sources */,
+				CABA0D4411E6C64C00C640FA /* BNRCrypto.m in Sources */,
+				CABA0D4511E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,6 +683,8 @@
 				937F33221131AAA60035B7EC /* BNRIndexManager.m in Sources */,
 				937F33231131AAA60035B7EC /* BNRTCIndexManager.m in Sources */,
 				937F33341131AB210035B7EC /* FullTextFetchText.m in Sources */,
+				CABA0D4611E6C64C00C640FA /* BNRCrypto.m in Sources */,
+				CABA0D4711E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +707,8 @@
 				9366DA0511120568000A897D /* BNRUniquingTable.m in Sources */,
 				93644C6C11134E01008CA083 /* SpeedTest.m in Sources */,
 				934ECFCA111B3C7F00F8C0E5 /* BNRIndexManager.m in Sources */,
+				CABA0D3A11E6C64C00C640FA /* BNRCrypto.m in Sources */,
+				CABA0D3B11E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,6 +731,8 @@
 				9366DA0211120568000A897D /* BNRUniquingTable.m in Sources */,
 				93644C6B11134E01008CA083 /* SpeedTest.m in Sources */,
 				934ECFCB111B3C7F00F8C0E5 /* BNRIndexManager.m in Sources */,
+				CABA0D3C11E6C64C00C640FA /* BNRCrypto.m in Sources */,
+				CABA0D3D11E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,6 +755,8 @@
 				9366D9FF11120568000A897D /* BNRUniquingTable.m in Sources */,
 				93644C6A11134E01008CA083 /* SpeedTest.m in Sources */,
 				934ECFC9111B3C7F00F8C0E5 /* BNRIndexManager.m in Sources */,
+				CABA0D3E11E6C64C00C640FA /* BNRCrypto.m in Sources */,
+				CABA0D3F11E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,6 +779,8 @@
 				9366D9FC11120568000A897D /* BNRUniquingTable.m in Sources */,
 				93644C6911134E01008CA083 /* SpeedTest.m in Sources */,
 				934ECFC8111B3C7F00F8C0E5 /* BNRIndexManager.m in Sources */,
+				CABA0D4011E6C64C00C640FA /* BNRCrypto.m in Sources */,
+				CABA0D4111E6C64C00C640FA /* BNRDataBuffer+Encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -779,6 +831,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -792,6 +845,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
