@@ -32,8 +32,9 @@
 		9366D82D110F3F98000A897D /* BNRStoreBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9366D81F110F3F98000A897D /* BNRStoreBackend.m */; };
 		9366D82E110F3F98000A897D /* BNRStoredObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9366D821110F3F98000A897D /* BNRStoredObject.m */; };
 		9366D830110F3F98000A897D /* BNRTCBackendCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9366D825110F3F98000A897D /* BNRTCBackendCursor.m */; };
-		9366D8D81110928B000A897D /* libTokyoCabinet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9366D8D71110928B000A897D /* libTokyoCabinet.a */; };
 		9366DA731112158A000A897D /* BNRClassDictionary.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9366DA6E1112158A000A897D /* BNRClassDictionary.mm */; };
+		CAF0C49C11E8D5B200041D7F /* libTokyoCabinet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF0C49B11E8D5B200041D7F /* libTokyoCabinet.a */; };
+		CAF0C4A511E8D5E600041D7F /* BNRTCIndexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF0C4A411E8D5E600041D7F /* BNRTCIndexManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,9 +81,11 @@
 		9366D822110F3F98000A897D /* BNRTCBackend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRTCBackend.h; path = ../BNRPersistence/BNRTCBackend.h; sourceTree = SOURCE_ROOT; };
 		9366D824110F3F98000A897D /* BNRTCBackendCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRTCBackendCursor.h; path = ../BNRPersistence/BNRTCBackendCursor.h; sourceTree = SOURCE_ROOT; };
 		9366D825110F3F98000A897D /* BNRTCBackendCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRTCBackendCursor.m; path = ../BNRPersistence/BNRTCBackendCursor.m; sourceTree = SOURCE_ROOT; };
-		9366D8D71110928B000A897D /* libTokyoCabinet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTokyoCabinet.a; path = "../TokyoCabinet/build/Debug-iphoneos/libTokyoCabinet.a"; sourceTree = SOURCE_ROOT; };
 		9366DA6E1112158A000A897D /* BNRClassDictionary.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BNRClassDictionary.mm; path = ../BNRPersistence/BNRClassDictionary.mm; sourceTree = SOURCE_ROOT; };
 		9366DA6F1112158A000A897D /* BNRUniquingTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRUniquingTable.h; path = ../BNRPersistence/BNRUniquingTable.h; sourceTree = SOURCE_ROOT; };
+		CAF0C49B11E8D5B200041D7F /* libTokyoCabinet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTokyoCabinet.a; path = "/Users/brandon/Development/BNRPersistence/TokyoCabinet/build/Release-iphoneos/libTokyoCabinet.a"; sourceTree = "<absolute>"; };
+		CAF0C4A311E8D5E600041D7F /* BNRTCIndexManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRTCIndexManager.h; path = ../BNRPersistence/BNRTCIndexManager.h; sourceTree = SOURCE_ROOT; };
+		CAF0C4A411E8D5E600041D7F /* BNRTCIndexManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRTCIndexManager.m; path = ../BNRPersistence/BNRTCIndexManager.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +96,10 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
-				9366D8D81110928B000A897D /* libTokyoCabinet.a in Frameworks */,
 				93644B9C11129AE9008CA083 /* libz.dylib in Frameworks */,
 				93644BA011129B6B008CA083 /* CoreData.framework in Frameworks */,
 				663EDD08116EA45700D00CB9 /* Security.framework in Frameworks */,
+				CAF0C49C11E8D5B200041D7F /* libTokyoCabinet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,10 +166,10 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
-				9366D8D71110928B000A897D /* libTokyoCabinet.a */,
 				93644B9B11129AE9008CA083 /* libz.dylib */,
 				93644B9F11129B6B008CA083 /* CoreData.framework */,
 				663EDD07116EA45700D00CB9 /* Security.framework */,
+				CAF0C49B11E8D5B200041D7F /* libTokyoCabinet.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,6 +177,8 @@
 		9366D80C110F3F58000A897D /* BNRPersistence */ = {
 			isa = PBXGroup;
 			children = (
+				CAF0C4A311E8D5E600041D7F /* BNRTCIndexManager.h */,
+				CAF0C4A411E8D5E600041D7F /* BNRTCIndexManager.m */,
 				663EDCA4116E7D9900D00CB9 /* BNRIndexManager.h */,
 				663EDCA5116E7D9900D00CB9 /* BNRIndexManager.m */,
 				934ECE33111623A700F8C0E5 /* BNRUniquingTable.m */,
@@ -276,6 +281,7 @@
 				663EDCA6116E7D9900D00CB9 /* BNRDataBuffer+Encryption.m in Sources */,
 				663EDCA7116E7D9900D00CB9 /* BNRIndexManager.m in Sources */,
 				663EDCB3116E82FB00D00CB9 /* BNRCrypto.m in Sources */,
+				CAF0C4A511E8D5E600041D7F /* BNRTCIndexManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +302,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../TokyoCabinet/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../TokyoCabinet/build/Release-iphoneos\"",
 				);
 				PRODUCT_NAME = PhoneSpeedTest;
 			};
@@ -313,6 +320,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../TokyoCabinet/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../TokyoCabinet/build/Release-iphoneos\"",
 				);
 				PRODUCT_NAME = PhoneSpeedTest;
 			};
@@ -327,7 +335,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1.2;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Debug;
 		};
@@ -340,7 +348,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1.2;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Release;
 		};

@@ -70,6 +70,12 @@
     return self;
 }
 
+// The location of the remote service for the Class.
++(NSString *) remoteURL
+{
+	return nil;
+}
+
 - (id)init
 {
     [super init];

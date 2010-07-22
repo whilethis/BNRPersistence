@@ -37,8 +37,10 @@
     // The least significant bit of status is used for hasContent
     // The other 31 are used for the retain count.
     UInt32 status;
-    
+	BOOL remote;
 }
+
++(NSString *) remoteURL;
 
 #pragma mark Getting data in and out
 // readContentFromBuffer: is used during loading
